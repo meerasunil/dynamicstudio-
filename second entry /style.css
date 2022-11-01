@@ -1,0 +1,66 @@
+p { 
+	font-size: small;
+    font-weight: bold;
+    font-style: normal;
+    font-family: monospace;
+}
+body {
+    overflow-y: scroll;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: lighter;
+
+}
+h2 {
+    font-family: 'courier new';
+    font-weight: bolder;
+    font-style: normal;
+}
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: medium;
+ grid-template-areas: 
+      ". . ."
+      ". . ."
+      ". . ."
+      ". . ."; 
+      grid-template-areas:
+    "a b c"
+    "d e f" 
+    "g h i"
+    "j k l";
+  }
+  .a { grid-area: a;
+overflow: scroll; }
+.b { grid-area: b;
+    overflow: scroll; }
+.c { grid-area: c; 
+    overflow: scroll;}
+.d { grid-area: d;
+    overflow: scroll;}
+.e { grid-area: e;
+    overflow: scroll; }
+.f { grid-area: f;
+    overflow: scroll;}
+.g { grid-area: g;
+    overflow: scroll; }
+.h { grid-area: h;
+    overflow: scroll; }
+.i { grid-area: i; 
+    overflow: scroll;}
+.j { grid-area: j;
+    overflow: scroll;}
+.k { grid-area: k;
+    overflow: scroll;}
+.l {grid-area: l;
+overflow: scroll;}
